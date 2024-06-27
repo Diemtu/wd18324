@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\tudaph39407Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,4 @@ Route::get('/', function () {
 Route::get('list-product',[ProductController::class, 'showProduct']);
 Route::get('get-product/{id}',[ProductController::class,'getProduct']);
 Route::get('update-product',[ProductController::class, 'updateProduct']);
+Route::get('gioi-thieu',[tudaph39407Controller::class, 'tudaph39407']);
